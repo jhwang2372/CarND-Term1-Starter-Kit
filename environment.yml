@@ -1,7 +1,6 @@
 name: carnd-term1
 channels:
-    - https://conda.anaconda.org/menpo
-    - conda-forge
+    - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/menpo/
 dependencies:
     - python==3.5.2
     - numpy
