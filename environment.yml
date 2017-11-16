@@ -1,6 +1,7 @@
 name: carnd-term1
 channels:
     - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/menpo/
+    - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
 dependencies:
     - python==3.5.2
     - numpy
@@ -21,5 +22,5 @@ dependencies:
     - pyqt=4.11.4
     - pip:
         - moviepy
-        - tensorflow==0.12.1
+        - https://mirrors.tuna.tsinghua.edu.cn/tensorflow/windows/cpu/tensorflow-0.12.1-cp35-cp35m-win_amd64.whl
         - keras==1.2.1
